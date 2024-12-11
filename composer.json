@@ -1,5 +1,5 @@
 {
-    "name": "tdx/components",
+    "name": "sztdx/components",
     "type": "library",
     "license": "MIT",
     "keywords": [
@@ -9,12 +9,12 @@
     "description": "",
     "autoload": {
         "psr-4": {
-            "Tdx\\Http\\": "./src/http/src/"
+            "Sztdx\\Http\\": "./src/http/src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Tdx\\Http\\Tests\\": "src/http/tests/"
+            "Sztdx\\Http\\Tests\\": "src/http/tests/"
         }
     },
     "require": {
@@ -39,7 +39,7 @@
         "swoole/ide-helper": "^4.5"
     },
     "replace": {
-        "tdx/http": "*"
+        "sztdx/http": "*"
     },
     "suggest": {
         "swow/swow": "Required to create swow components."
@@ -57,7 +57,7 @@
     },
     "extra": {
         "hyperf": {
-            "config": "Tdx\\Http\\ConfigProvider"
+            "config": "Sztdx\\Http\\ConfigProvider"
         }
     }
 }
